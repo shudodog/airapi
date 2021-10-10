@@ -7,18 +7,19 @@
 서울시/부산시 미세먼지 정보(대기질 정보) Open API를 하나의 API로 연동
 
 ## REST API
-airapi_RESTAPI에 첨부
+* airapi_RESTAPI에 첨부
 ex)
+
 ![image](https://user-images.githubusercontent.com/76150392/136699513-92a54dfc-d080-4d98-b2ec-6efce98110d5.png)
 
 ## PostMan 응답결과
-서울시 전체
+* 서울시 전체
 ![image](https://user-images.githubusercontent.com/76150392/136699599-1aded25d-8b92-4681-ab01-a505e53f8196.png)
-서울시 강동구
+* 서울시 강동구
 ![image](https://user-images.githubusercontent.com/76150392/136699626-b8a31873-c3fb-4514-973b-b917b6d09dbf.png)
-부산시 전체
+* 부산시 전체
 ![image](https://user-images.githubusercontent.com/76150392/136699644-1b812c65-a56d-41e2-b1da-76a4aa47ed6f.png)
-부산시 온천동
+* 부산시 온천동
 ![image](https://user-images.githubusercontent.com/76150392/136699674-9c59cb48-3d36-4fe2-a4fd-f3c4c02903c8.png)
 
 ### Tracking
