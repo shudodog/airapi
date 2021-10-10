@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+api:
+  seoul:
+    base-url: http://openAPI.seoul.go.kr:8088/
+  busan:
+    base-url: http://apis.data.go.kr/6260000/
+
+spring:
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
