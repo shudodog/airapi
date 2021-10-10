@@ -8,6 +8,7 @@
 
 ## REST API
 * airapi_RESTAPI에 첨부
+* 요청과 응답을 snake case 로 통일
 
 ![image](https://user-images.githubusercontent.com/76150392/136699513-92a54dfc-d080-4d98-b2ec-6efce98110d5.png)
 
@@ -28,7 +29,11 @@
 
 ![image](https://user-images.githubusercontent.com/76150392/136699674-9c59cb48-3d36-4fe2-a4fd-f3c4c02903c8.png)
 
-### Tracking
+## 어려웠던 점 및 신경 썼던 점
+* AirQualityApi interface 는 인터페이스만 보고서는 어떤 기능이 있는지 알기가 어려웠었다. 인터페이스만 보고서도 어떤 기능들이 구현되는지 명확하게 알 수 있게 AirQualityApi를 수정하였다.
+
+* AirQualityGradeUtil 와 같은 Util Class 는 모두 static method로 변경하고 생성자는 private 으로 instance화 하지 않아야한다. (https://dololak.tistory.com/715)
+TodayDate 클래스도 Util클래스로 변경해주세요. (@Component 제거)
 
 * 사람을 인식하는데 Yolo를 사용하였다.
 * red box dhk simple algorithm을 이용해 사람들을 추적할 수 있었다.
